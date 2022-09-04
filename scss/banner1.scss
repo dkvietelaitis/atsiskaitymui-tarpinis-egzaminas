@@ -1,0 +1,46 @@
+.banner
+{
+    /*border: 1px solid red;*/
+    height: 550px;
+    background: url("../app/assets/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap: 30px;
+}
+input
+{
+    
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.content-banner
+{
+    /*border: 1px solid green;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    
+}
+.newsletter-banner
+{
+    /*border: 1px solid yellow;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.placeholder input
+{
+    padding-left: 10px;
+}

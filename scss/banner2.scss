@@ -1,0 +1,17 @@
+.banner2
+{
+    
+    height: 300px;
+    background: url("../app/assets/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.banner2 p
+{
+    font-size: 30px;
+}
